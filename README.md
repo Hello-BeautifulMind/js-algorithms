@@ -11,4 +11,6 @@
 
 ### 可视化过程演示
 -----------
-[演示地址](http://www.letmego.me:8000/algorithms/)
+[演示地址](http://www.letmego.me:8000/algorithms/)</br>
+演示截图如下：</br>
+![image](https://github.com/Hello-BeautifulWorld/js-algorithms/example.jpg)
