@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>让排序算法飞一会</title>
+		<script type="text/javascript" src="https://cdn.bootcss.com/echarts/3.6.2/echarts.common.min.js"></script>
+		<script type="text/javascript" src="algorithms.js"></script>
+		<style type="text/css">
+			div {
+				margin-bottom: 5px;
+			}
+			#algorithms {
+				width: 100%;
+				height: 36px;
+				line-height: 36px;
+				/*text-align: center;*/
+				border: 1px solid #C7EDCC;
+			}
+			#algorithms div {
+				display: inline-block;
+				margin: 0 0 0 20px;
+			}
+			#algorithms select {
+				width: 110px;
+				height: 24px;
+			}
+			#algorithms input {
+				width: 70px;
+				height: 24px;
+			}
+			#wrap1, #wrap2, #wrap3 {
+				width: 100%;
+				height: 30%;
+				border: 1px solid #B0B0B0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="algorithms">
+			<div>
+				<label for="data_nums">数据量</label>
+				<input type="text" value=50 id="data_nums" />
+			</div>
+			<div>
+				<label for="time_interval">每条语句消耗时间(ms)</label>
+				<input type="text" value=5 id="time_interval" />
+			</div>
+			<div>
+				<label for="algorithm1">算法1</label>
+				<select id="algorithm1" name="algorithm">
+					<option value='0' selected>-------</option>
+				</select>
+			</div>
+			<div>
+				<label for="algorithm2">算法2</label>
+				<select id="algorithm2" name="algorithm">
+					<option value='0' selected>-------</option>
+				</select>
+			</div>
+			<div>
+				<label for="algorithm3">算法3</label>
+				<select id="algorithm3" name="algorithm">
+					<option value='0' selected>-------</option>
+				</select>
+			</div>
+			<div>
+				<button type="button" id="btn" onfocus="this.blur();">开始</button>
+			</div>
+		</div>
+		<div id="wrap1">
+		</div>
+		<div id="wrap2">
+		</div>
+		<div id="wrap3">
+		</div>
+	</body>
+</html>
