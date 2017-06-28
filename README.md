@@ -8,7 +8,7 @@
 
 ### 简要说明
 -----------
-使用JavaScript实现各种常用排序算法，然后使用ECharts可视化图表库完成排序过程的动态效果，</br>
+使用JavaScript实现各种常用排序算法，算法的更详细描述可参考Python版[(链接)](https://github.com/Hello-BeautifulMind/python-daily-practice)，运用ECharts可视化图表库完成排序过程的动态效果，</br>
 目前已完成["冒泡排序", "快速排序", "希尔排序", "选择排序", "二分插入排序", "归并排序"]。</br>
 *建议使用火狐浏览器进行演示*
 
